@@ -328,7 +328,7 @@
       <td>1GB <br />(internal)</td>
       <td>20 GB<br />(internal)</td>
       <td>CF Card</td>
-      <td>16 GB + SD Card + 2.5" SSD slot + external storage through USB</td>
+      <td>16 GB + 2TB max SD Card + 2TB max 2.5" SSD slot + external storage through USB</td>
     </tr>
     <tr>
       <td>Resolution</td>
@@ -336,7 +336,7 @@
       <td>16bit<br />48kHz</td>
       <td>24bit<br />48kHz</td>
       <td>24bit<br />44.1kHz</td>
-      <td>32bit<br/>44.1kHz</td>
+      <td>24bit<br/>44.1kHz</td>
     </tr>
     <tr>
       <td>Stereo Samples</td>
@@ -470,7 +470,7 @@
       <td>8</td>
       <td>16</td>
       <td>8</td>
-      <td>unlimited</td>
+      <td>128?</td>
     </tr>
     <tr>
       <td>SRC Machines</td>
@@ -688,7 +688,7 @@
       <td>via Slice Machine</td>
       <td>via Slice Machine</td>
       <td>set in Audio Editor, used via Trig Modes</td>
-      <td>slicing in sample edit then using slices in drum track</td>
+      <td>slicing in sample edit then using slices in drum track or convert to keygroup</td>
     </tr>
     <tr>
       <td>Time Stretching</td>
@@ -868,7 +868,14 @@
       <td>2x LFO</td>
       <td>3x LFO</td>
       <td>3x LFO</td>
-      <td>1x LFO per sample slot, 0-2 LFO in plugins 
+      <td>
+        <br/> global drift + voice drift
+        <br/> 2x global LFO + 2 note counter + 2 ramp modulation per sample slot
+        <br/> 32 point modulation matrix 
+        <br/> 2x LFO per sample voice on a sample slot (keygroup only)
+        <br/> randomizer for pitch, level, pan, offset (keygroup only)
+        <br/> AUX envelope (keygroup only) 
+        <br/> 0-2 LFO in plugins 
         <br/> 16 Global LFO with unlimited target each</td>
     </tr>
     <tr>
@@ -978,10 +985,10 @@
       </td>
       <td>
         <img
-          src="https://www.elektronauts.com/images/emoji/twitter/white_large_square.png?v=12"
-          title=":white_large_square:"
+          src="https://www.elektronauts.com/images/emoji/twitter/white_check_mark.png?v=12"
+          title=":white_check_mark:"
           class="emoji only-emoji"
-          alt=":white_large_square:"
+          alt=":white_check_mark:"
           loading="lazy"
           width="20"
           height="20"
@@ -1410,7 +1417,7 @@
       <td>64</td>
       <td>128</td>
       <td>64</td>
-      <td>9999</td>
+      <td>999</td>
     </tr>
     <tr>
       <td>Track Recording</td>
