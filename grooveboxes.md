@@ -876,7 +876,7 @@
         <br/> randomizer for pitch, level, pan, offset (keygroup only)
         <br/> AUX envelope (keygroup only) 
         <br/> 0-2 LFO in plugins 
-        <br/> 16 Global LFO with unlimited target each</td>
+        <br/> 16 Global enveloppe follower (source can be an LFO, track, random S&H / linear) with unlimited target each</td>
     </tr>
     <tr>
       <td>Modulation Setup (“Macros”)</td>
