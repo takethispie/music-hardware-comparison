@@ -470,7 +470,7 @@
       <td>8</td>
       <td>16</td>
       <td>8</td>
-      <td>128?</td>
+      <td>64</td>
     </tr>
     <tr>
       <td>SRC Machines</td>
